@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#dktc {
+    top: 0;
+    left: 10px;
+    position: absolute;
+    display: none;
+    width: 55%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.welcome {
+    position: relative;
+}
+
+a:hover {
+    color: black ;
+    text-decoration: none;
+}
+
+.header-nav{
+    padding: 0;
+}
+
+.nav-dropdown{
+    width: 150%;
+    background-color: whitesmoke;
+}
+
+#android:hover {
+    transform: scale(1.5) ;
+    transition: 1000ms;
+    
+}
+
+.nav-dropdown a{
+    color: black;
+    font-weight: bold;
+}
+
+#logo {
+    font-family: fantasy;
+    font-size: 40px;
+    margin: 0;
+}
+
+#slogan {
+    font-size: 15px;
+    line-height: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav li:hover{
+    background-color: white;
+    border-radius: 10px;
+    transition: 500ms;
+} 
+
+.giatien {
+    color: red;
+}
+
+
+
+h6{
+    color: black;
+    text-align: center;
+}
+
+.phukiennoibat .btn{
+    border-radius: 15px;
+}
+
+
+.phukiennoibat .btn:hover{
+    background-color: rgb(255, 115, 0);
+    transition: 1000ms;
+    color: white;
+}
+
+h5 {
+    font-family: sans-serif;
+}
+#footer p {
+    margin: 0;
+    color: rgb(116, 102, 102);
+}
+.main{
+    width: 1500px;
+}
+.main-right{
+    float: right;
+    width: 60%;
+    margin: 15px 5px;
+}
+
+.main .main-right .container img{
+    width: 1000px;
+    height: 300px;
+}
+
+.main .main-right .container div .carousel-indicators{
+    margin-left: 310px;
+    margin-bottom: 15px;
+}
+
+.main .main-right .container div .carousel-inner{
+    width: 900px;
+}
+
+.main-left{
+    float: left;
+    padding-left: 250px;
+}
+
+.main .main-left .wrapBannerRight ul{
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    width: 350px;
+}
+
+.main .main-left .wrapBannerRight ul li{
+    margin: 12px;
+}
+
+.main .main-left .wrapBannerRight ul li img{
+    width: 400px;
+    height: 145px;
+}
+
+.thuonghieu_list a{
+    border-style: 1px solid black;
+}
+.thuonghieu_list a img{
+    border-style: 1px solid black;
+    margin-left: 20px;
+}
+.thuonghieu h4{
+    background-color: rgb(255, 251, 0);
+    height: 50px;
+    width: 350px;
+    vertical-align: middle;
+    padding: 10px;
+    border: 2px solid chartreuse;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.sanpham {
+    border: 5px solid #ffc107;
+    border-radius: 4px;
+    height: auto;    
+}
+.sanpham:hover{
+     transform: scale(1.1);
+     transition: 500ms;
+     text-decoration: none;
+}
+     
+.sanpham p{
+    text-align: center;
+}
+
+.sanpham .btn {
+    margin-bottom: 10px;
+}
+

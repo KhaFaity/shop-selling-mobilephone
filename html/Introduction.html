@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css" />
+    <link rel="shortcut icon" href="../img/logo.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../css/bootstrap.css"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .mydev {            
+            background-image: url("https://i.pinimg.com/originals/a8/83/a5/a883a55502d3d6150466c73f7959b4f7.png");
+            background-position: top center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .card {
+            margin-bottom: 100px;
+        }
+        .card:hover {
+            transform: scale(1.2);
+            transition: 1000ms;
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="container-fluid bg-warning">
+        <!-- Welcome -->
+        <div class="p-2 row text-dark welcome">
+            <div class="col-md">
+                <span class="align-middle">Chào mừng bạn đến với HPK Shop</span>
+                <span style="border-left: 1px solid black;" class="align-middle ml-2 pl-2">Kết nối </span>
+                <a class="" href="https://www.facebook.com/duongviethuy2001/"><img width="30px" src="../img/pngegg.png" alt=""></a>
+                <a href=""><img width="23px" src="../img/all.png" alt=""></a>
+            </div>
+            <div class="col-md text-right">
+                <span class="align-middle">
+                    <img src="../img/Very-Basic-Tones-icon-1.png" width="22px" alt="">
+                    <a href="#">Thông báo</a>
+                </span>
+                <span  class="ml-3 align-middle"> 
+                    <img src="../img/question+icon-1320184287617743312.png" width="22px" alt="">
+                    <a href="">Hỗ trợ</a>
+                </span>
+                <span id="dktc" class="alert alert-success posision-absolute">Đăng ký thành công !</span>
+                <span style="border-right: 1px solid black;" class="align-middle ml-4 pr-2 font-weight-bold" ><a id="dangky" href="../html/Register.html">
+                    <i class="fas fa-user"></i> Creat Account</a></span>
+                <span class="align-middle font-weight-bold"><a href="../html/Login.html"><i class="fas fa-sign-out-alt"></i>Login</a></span>          
+            </div>
+        </div>
+        <!-- Logo -->
+        <div style="border-top: 1px solid black; background-color: black;" class="row p-1">
+            <div class="col-md-3 text-center align-middle">
+                <span style="display: block;" class="text-warning nav-brand">
+                    <p id="logo"><i><a href="../html/index.html" style="color: #ffc107;"> HPKshop.com</a></i></p>
+                    <p id="slogan" >Uy tín - Chất lượng - Giá rẻ</p>
+                </span>
+            </div>
+            <!-- Search -->
+            <div class="col-md-6">
+                <div class="input-group p-4">
+                    <input type="text" class="form-control p-2" placeholder="Tìm kiếm sản phẩm">                
+                    <div class="input-group-append">
+                        <button class="btn pt-0 btn-warning" type="submit">
+                            <img width="15px" src="../img/137-1378213_select-public-search-button-z-svg-png-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Giỏ Hàng -->
+            <div class="col-md-3 text-center">
+                <button class="btn m-4 p-1 btn-warning">
+                    <a href="../html/GioHang.html">
+                        <img  width="40px" src="../img/shopping-cart-1000pxV21-900x600.png" alt="">
+                        <span class="align-middle px-1">Giỏ hàng</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="row justify-content-center">
+            <nav class="header-nav navbar navbar-expand-md p-2">
+                <ul class="navbar-nav text-center font-weight-bold text-dark">
+                    <li class="nav-item "><a href="../html/index.html" class="nav-link mx-2 "><i class="fas fa-home"></i> Trang chủ</a></li>
+                    <li class="nav-item"><a href="https://www.thegioididong.com/tin-tuc" class="nav-link mx-2"><i class="fas fa-newspaper"></i> Tin tức</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle" href="../html/index.html" data-toggle="dropdown" >
+                            <i class="fas fa-clipboard-list"></i> Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li>
+                                <a href="../html/Tainghe.html" class="nav_link dropdown-item">Tai Nghe</a>
+                            </li>
+                            <li >
+                                <a href="../html/OpLung.html" class="nav_link dropdown-item">Ốp lưng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-dtdd" class="nav_link dropdown-item">Sạc dự phòng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/mieng-dan-man-hinh" class="nav_link dropdown-item">Kiến cường lực</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-cap" class="nav_link dropdown-item">Sạc, cáp sạc</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/gay-tu-suong" class="nav_link dropdown-item">Gậy tự sướng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/the-nho-dien-thoai" class="nav_link dropdown-item">Thẻ Nhớ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-lock"></i> Bảo hành</a></li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-exchange-alt"></i> Trả hàng</a></li>
+                    <li class="nav-item "><a href="../html/Introduction.html" class="nav-link mx-2"><i class="fas fa-info"></i> Giới thiệu</a></li>
+                    <li class="nav-item "><a href="../html/sitemap.html" class="nav-link mx-2"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center mydev pt-5">
+        <div class="row">
+            <div class="col-md"></div>
+            <div class="col-md-3">
+                <div class="card mt-5" style="width: 100%;">
+                    <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="">
+                
+                <div class="card-body">
+                    <h4 class="card-title">Huỳnh Duy Kha - 19431331</h4>
+                    <p class="card-text">Phụ trách viết báo cáo và thuyết trình</p>
+                    <a href="https://www.facebook.com/profile.php?id=100009341871879" class="btn btn-primary"><i class="fa fa-address-card" aria-hidden="true"></i> Liên hệ</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 100%;">
+                    <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="">
+                
+                <div class="card-body">
+                    <h4 class="card-title">Dương Việt Huy - 19430971</h4>
+                    <p class="card-text">Phụ trách trang chủ, trang đăng nhập, đăng kí, giới thiệu, sitemap</p>  
+                    <a href="https://www.facebook.com/duongviethuy2001/" class="btn btn-primary"><i class="fa fa-address-card" aria-hidden="true"></i> Liên hệ</a>                  
+                </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mt-5" style="width: 100%;">
+                    <img src="https://www.w3schools.com/bootstrap4/img_avatar1.png" class="card-img-top" alt="">
+                
+                <div class="card-body">
+                    <h4 class="card-title">Võ Minh Phương - 19434751</h4>
+                    <p class="card-text">Phụ trách các sản phẩm</p>
+                    
+                    <a href="https://www.facebook.com/profile.php?id=100015888185807" class="btn btn-primary"><i class="fa fa-address-card" aria-hidden="true"></i> Liên hệ</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-warning d-fixed " id="footer">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md text-center mt-4">
+                        <h5>WEBSITE GIỚI THIỆU, BÁN PHỤ KIỆN ĐIỆN THOẠI TRỰC TUYẾN</br> <h1 style="font-family: fantasy;"><i><b>HPKshop.com</b></i></h1>
+                        <hr class="my-2">
+                        <p>Giảng viên: Nguyễn Thị Hoàng Khánh</p>
+                        <p>Tên lớp - Mã lớp: DHKTPM15A - 420300214507</p>
+                        <p>Đề tài: Website giới thiệu, bán phụ kiện điện thoại trực tuyến</p>
+                        <p>Tên ứng dụng: HPKshop.com</p>
+                        <p class="mt-2"><i><b>THÀNH VIÊN NHÓM: </b></i></p>
+                        <p>Dương Việt Huy - 19430971</p>
+                        <p>Võ Minh Phương - 19434751</p>
+                        <p>Huỳnh Duy Kha - 19431331</p>
+                        <hr class="my-2">
+                        <p class="float-left">&check;2021 HPKshop.com &copy;Group 21</p>
+                        <p class="float-right">All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+</body>
+</html>

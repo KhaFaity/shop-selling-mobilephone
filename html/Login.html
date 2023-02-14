@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>    
+    <link rel="shortcut icon" href="../img/logo.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../css/bootstrap.css"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <style>
+        #form-dangnhap {
+            background-image: url(http://minhtuanmobi.com/upload/images/iphone-12-thiet-ke.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header" class="container-fluid bg-warning">
+        <!-- Welcome -->
+        <div class="p-2 row text-dark welcome">
+            <div class="col-md">
+                <span class="align-middle">Chào mừng bạn đến với HPK Shop</span>
+                <span style="border-left: 1px solid black;" class="align-middle ml-2 pl-2">Kết nối </span>
+                <a class="" href="https://www.facebook.com/duongviethuy2001/"><img width="30px" src="../img/pngegg.png" alt=""></a>
+                <a href=""><img width="23px" src="../img/all.png" alt=""></a>
+            </div>
+            <div class="col-md text-right">
+                <span class="align-middle">
+                    <img src="../img/Very-Basic-Tones-icon-1.png" width="22px" alt="">
+                    <a href="#">Thông báo</a>
+                </span>
+                <span  class="ml-3 align-middle"> 
+                    <img src="../img/question+icon-1320184287617743312.png" width="22px" alt="">
+                    <a href="">Hỗ trợ</a>
+                </span>
+                <span id="dktc" class="alert alert-success posision-absolute">Đăng ký thành công !</span>
+                <span style="border-right: 1px solid black;" class="align-middle ml-4 pr-2 font-weight-bold" ><a id="dangky" href="../html/Register.html">
+                    <i class="fas fa-user"></i> Creat Account</a></span>
+                <span class="align-middle font-weight-bold"><a href="../html/Login.html"><i class="fas fa-sign-out-alt"></i>Login</a></span>          
+            </div>
+        </div>
+        <!-- Logo -->
+        <div style="border-top: 1px solid black; background-color: black;" class="row p-1">
+            <div class="col-md-3 text-center align-middle">
+                <span style="display: block;" class="text-warning nav-brand">
+                    <p id="logo"><i><a href="../html/index.html" style="color: #ffc107;"> HPKshop.com</a></i></p>
+                    <p id="slogan" >Uy tín - Chất lượng - Giá rẻ</p>
+                </span>
+            </div>
+            <!-- Search -->
+            <div class="col-md-6">
+                <div class="input-group p-4">
+                    <input type="text" class="form-control p-2" placeholder="Tìm kiếm sản phẩm">                
+                    <div class="input-group-append">
+                        <button class="btn pt-0 btn-warning" type="submit">
+                            <img width="15px" src="../img/137-1378213_select-public-search-button-z-svg-png-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Giỏ Hàng -->
+            <div class="col-md-3 text-center">
+                <button class="btn m-4 p-1 btn-warning">
+                    <a href="../html/GioHang.html">
+                        <img  width="40px" src="../img/shopping-cart-1000pxV21-900x600.png" alt="">
+                        <span class="align-middle px-1">Giỏ hàng</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="row justify-content-center">
+            <nav class="header-nav navbar navbar-expand-md p-2">
+                <ul class="navbar-nav text-center font-weight-bold text-dark">
+                    <li class="nav-item "><a href="../html/index.html" class="nav-link mx-2 "><i class="fas fa-home"></i> Trang chủ</a></li>
+                    <li class="nav-item"><a href="https://www.thegioididong.com/tin-tuc" class="nav-link mx-2"><i class="fas fa-newspaper"></i> Tin tức</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle" href="../html/index.html" data-toggle="dropdown" >
+                            <i class="fas fa-clipboard-list"></i> Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li>
+                                <a href="../html/Tainghe.html" class="nav_link dropdown-item">Tai Nghe</a>
+                            </li>
+                            <li >
+                                <a href="../html/OpLung.html" class="nav_link dropdown-item">Ốp lưng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-dtdd" class="nav_link dropdown-item">Sạc dự phòng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/mieng-dan-man-hinh" class="nav_link dropdown-item">Kiến cường lực</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-cap" class="nav_link dropdown-item">Sạc, cáp sạc</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/gay-tu-suong" class="nav_link dropdown-item">Gậy tự sướng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/the-nho-dien-thoai" class="nav_link dropdown-item">Thẻ Nhớ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-lock"></i> Bảo hành</a></li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-exchange-alt"></i> Trả hàng</a></li>
+                    <li class="nav-item "><a href="../html/Introduction.html" class="nav-link mx-2"><i class="fas fa-info"></i> Giới thiệu</a></li>
+                    <li class="nav-item "><a href="../html/sitemap.html" class="nav-link mx-2"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid" id="form-dangnhap">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="row m-3">
+                    <div class="col-md-6">
+                        <div class="card p-3">
+                            <form action="">
+                                <h3 class="text-danger">Đăng nhập</h3>
+                                <p>Thông tin tài khoản</p>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <i class="fa fa-user input-group-text"></i>
+                                    </div>
+                                    <input id="userName" name="username" type="text" class="form-control" placeholder="Tên đăng nhập">
+                                </div>
+                                <div class="input-group mt-3">
+                                    <div class="input-group-prepend">
+                                        <i class="fa fa-lock input-group-text"></i>
+                                    </div>
+                                    <input type="password" name="password" class="form-control" placeholder="Mật khẩu">
+                                </div>
+                                <div class="mt-3  text-center">
+                                    <button style="width: 100%;" id="btnLogin" class="btn btn-primary" type="button">Đăng nhập</button>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="card bg-danger p-3 text-light">
+                            <h4>Đăng kí</h4>
+                            <p>Nếu bạn chưa có tài khoản. Vui lòng đăng kí để nhận được những ưu đãi từ website của chúng tôi. Cảm ơn!</p>
+                            <a href="../html/Register.html"><button style="width: 100%;" class="btn btn-light" type="button">Đăng kí ngay</button></a>
+                            <a href="" class="text-left text-light text-center mt-2">Quên mật khẩu?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid bg-warning text-center pb-5">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 mt-3">
+                <h3>Đăng kí nhận tin ưu đãi qua Email</h3>
+                <div class="row">
+                    <div class="col-sm-8 mt-3">
+                        <input type="text" class="form-control border-danger" placeholder="Nhập email của bạn vào đây">
+                    </div>
+                    <div class="col-sm-4 mt-3">
+                        <button class="btn btn-light border-danger" type="button">Đăng kí ngay</button>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-md-3"></div>            
+        </div>    
+   
+    </div>
+    <script>
+         
+    </script>
+</body>
+</html>

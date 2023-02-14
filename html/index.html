@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHỤ KIỆN HPK</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css" />
+    <link rel="shortcut icon" href="../img/logo.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/chiTietSP.js"></script>
+    <script src="../css/bootstrap.css"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="header" class="container-fluid bg-warning">
+        <!-- Welcome -->
+        <div class="p-2 row text-dark welcome">
+            <div class="col-md">
+                <span class="align-middle">Chào mừng bạn đến với HPK Shop</span>
+                <span style="border-left: 1px solid black;" class="align-middle ml-2 pl-2">Kết nối </span>
+                <a class="" href="https://www.facebook.com/duongviethuy2001/"><img width="30px" src="../img/pngegg.png" alt=""></a>
+                <a href=""><img width="23px" src="../img/all.png" alt=""></a>
+            </div>
+            <div class="col-md text-right">
+                <span class="align-middle">
+                    <img src="../img/Very-Basic-Tones-icon-1.png" width="22px" alt="">
+                    <a href="#">Thông báo</a>
+                </span>
+                <span  class="ml-3 align-middle"> 
+                    <img src="../img/question+icon-1320184287617743312.png" width="22px" alt="">
+                    <a href="">Hỗ trợ</a>
+                </span>
+                <span id="dktc" class="alert alert-success posision-absolute">Đăng ký thành công !</span>
+                <span style="border-right: 1px solid black;" class="align-middle ml-4 pr-2 font-weight-bold" ><a id="dangky" href="../html/Register.html">
+                    <i class="fas fa-user"></i> Creat Account</a></span>
+                <span class="align-middle font-weight-bold"><a href="../html/Login.html"><i class="fas fa-sign-out-alt"></i> Login</a></span>          
+            </div>
+        </div>
+        <!-- Logo -->
+        <div style="border-top: 1px solid black; background-color: black;" class="row p-1">
+            <div class="col-md-3 text-center align-middle">
+                <span style="display: block;" class="text-warning nav-brand">
+                    <p id="logo"><i><a href="../html/index.html" style="color: #ffc107;"> HPKshop.com</a></i></p>
+                    <p id="slogan" >Uy tín - Chất lượng - Giá rẻ</p>
+                </span>
+            </div>
+            <!-- Search -->
+            <div class="col-md-6">
+                <div class="input-group p-4">
+                    <input type="text" class="form-control p-2" placeholder="Tìm kiếm sản phẩm">                
+                    <div class="input-group-append">
+                        <button class="btn pt-0 btn-warning" type="submit">
+                            <img width="15px" src="../img/137-1378213_select-public-search-button-z-svg-png-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Giỏ Hàng -->
+            <div class="col-md-3 text-center">
+                <button class="btn m-4 p-1 btn-warning">
+                    <a href="../html/GioHang.html">
+                        <span class="align-middle px-1"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Menu -->
+         <div class="row justify-content-center stiky-top" >
+            <nav class="header-nav navbar navbar-expand-md p-2" data-spy="affix" data-offset-top="197">
+                <ul class="navbar-nav text-center font-weight-bold text-dark">
+                    <li class="nav-item "><a href="../html/index.html" class="nav-link mx-2 "><i class="fa fa-home"></i> Trang chủ</a></li>
+                    <li class="nav-item"><a href="https://www.thegioididong.com/tin-tuc" class="nav-link mx-2"><i class="fas fa-newspaper"></i> Tin tức</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle" href="../html/index.html" data-toggle="dropdown" >
+                            <i class="fas fa-clipboard-list"></i> Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li>
+                                <a href="../html/Tainghe.html" class="nav_link dropdown-item">Tai Nghe</a>
+                            </li>
+                            <li >
+                                <a href="../html/OpLung.html" class="nav_link dropdown-item">Ốp lưng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-dtdd" class="nav_link dropdown-item">Sạc dự phòng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/mieng-dan-man-hinh" class="nav_link dropdown-item">Kiến cường lực</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-cap" class="nav_link dropdown-item">Sạc, cáp sạc</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/gay-tu-suong" class="nav_link dropdown-item">Gậy tự sướng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/the-nho-dien-thoai" class="nav_link dropdown-item">Thẻ Nhớ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-lock"></i> Bảo hành</a></li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-exchange-alt"></i> Trả hàng</a></li>
+                    <li class="nav-item "><a href="../html/Introduction.html" class="nav-link mx-2"><i class="fas fa-info"></i> Giới thiệu</a></li>
+                    <li class="nav-item "><a href="../html/sitemap.html" class="nav-link mx-2"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<!-- Banner -->
+<div class="container-fluid">
+    <div class="row mb-0">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img width="100%" src="../img/banner_right_2.webp">
+                  </div>
+                  <div class="carousel-item">
+                    <img  width="100%" src="../img/banner2.jpg">
+                  </div>
+                  <div class="carousel-item">
+                    <img width="100%" src="../img/banner1.jpg">
+                  </div>
+                  <div class="carousel-item">
+                    <img  width="100%" src="../img/banner_right_1.webp">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+            
+              </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+<!-- Thương hiệu -->
+<div class="thuonghieu text-center row mt-5">
+    <h4 class="thuonghieu_title"><span> THƯƠNG HIỆU HÀNG ĐẦU</span></h4>
+    <div class="thuonghieu_list col-8-md">
+        <a  href="../html/Apple.html"><img   class="mb-4" src="../img/THApple.jpg" alt=""></a>
+        <a href="../html/SamSung.html"><img class="mb-4" src="../img/THSamsung482-b_37.png" alt=""></a>
+        <a href=""><img   class="mb-4"src="../img/THSony482-b_41.jpg" alt=""></a>
+        <a href="https://www.thegioididong.com/phu-kien/beats"><img  class="mb-4" src="../img/THBeats.jpg" alt=""></a>
+        <a href="https://www.thegioididong.com/phu-kien/belkin"><img  class="mb-4" src="../img/THBelkin482-b_1.jpg" alt=""></a>
+        <a href="https://www.thegioididong.com/phu-kien/jbl"><img  class="mb-4" src="../img/THJBL482-b_46.jpg" alt=""></a>
+        
+    </div>
+</div>
+<!-- product -->
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="phukiennoibat col-md-8 text-center mt-2">   
+                <h1 class="my-3 text-danger">PHỤ KIỆN NỔI BẬT</h1>             
+                <div class="row">
+                    <a class="sanpham col-md p-0 m-2" href="#">
+                            <img width="100%" src="../img/pin-sac-du-phong-Eloop-E29.jpg" alt="">
+                            <h6>Pin dự phòng Xiaomi</h6>
+                            <p class="giatien">Giá 300.000đ</p>
+                            <button class="btn btn-warning mb-3">
+                                Mua ngay
+                            </button> <br>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/tai-nghe-bose-noise-cancelling-headphones-700.jpg" alt="">
+                        <h6>Tai nghe Sony chụp tai</h6>
+                        <p class="giatien">Giá 1.400.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/tai_nghe_apple_airpods_2_sac_co_day_1_dce91445de7c4d23a2f5862196f0cb19_grande.jpg" alt="">
+                        <h6>Tai nghe Apple</h6>
+                        <p class="giatien">Giá 2.300.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NoiBac1.jpg" alt="">
+                        <h6>Tai nghe Awei</h6>
+                        <p class="giatien">Giá 105.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>
+                <div class="row">
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/cap-sac-nhanh-innostyle-jazzy-usb-c-to-lightning-1-2m-mfi-iphone-ipad-ipod-3.png" alt="">
+                        <h6>Cáp sạc nhanh iPhone</h6>
+                        <p class="giatien">Giá 120.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/loa-bluetooth.png" alt="">
+                        <h6>Loa Bluetooth JBL</h6>
+                        <p class="giatien">Giá 400.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/Op-lung-iPhone-12-Pro-Max-UAG-U-Lucent-Series_11_Bengovn.png" alt="">
+                        <h6>Ốp lưng iPhone 12</h6>
+                        <p class="giatien">Giá 230.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NoiBac2.jpg" alt="">
+                        <h6>Tai nghe Bluetooth Mozard K8</h6>
+                        <p class="giatien">Giá 315.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>       
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!-- andorid -->
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="phukienandroid col-md-8 text-center mt-2">   
+                <a href="../html/Android.html">
+                    <img  id="android" src="../img/Android_robot_(2014-2019).svg.png" width="80px" alt="">
+                    <h1 class="mt-0 mb-3 text-success">PHỤ KIỆN NỔI BẬT CHO ANDROID</h1>
+                </a>
+                <div class="row">
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/3db5fbf1e294041e56d79c5d0389dadf.jpg" alt="">
+                        <h6>Combo sạc pin Android</h6>
+                        <p class="giatien">Giá 150.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/0bc17a6fad50e0eb3a8eac382a4c4fdc.jpg" alt="">
+                        <h6>Cổng OTG cho Android</h6>
+                        <p class="giatien">Giá 90.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/usb.jpg" alt="">
+                        <h6>USB 2 đầu cho Android</h6>
+                        <p class="giatien">Giá 690.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NBA2.jpg" alt="">
+                        <h6>Pin sạc dự phòng Polymer </h6>
+                        <p class="giatien">Giá 450.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>
+                <div class="row">
+                    <a class="sanpham col-md p-0  m-2" href="">
+                        <img width="100%" src="../img/XB400Black_1-500x500.png" alt="">
+                        <h6>Tai nghe Sony</h6>
+                        <p class="giatien">Giá 1.200.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/quatmini.jpg" alt="">
+                        <h6>Quạt mini siêu mát</h6>
+                        <p class="giatien">Giá 40.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/oplungandroid.png" alt="">
+                        <h6>Ốp lưng trong suốt</h6>
+                        <p class="giatien">Giá 100.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NBA1.jpg" alt="">
+                        <h6>Tai nghe Bluetooth Roman</h6>
+                        <p class="giatien">Giá 280.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>       
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!-- iphone -->
+    <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="phukiennoibat col-md-8 text-center mt-4"> 
+                <a href="../html/Apple.html"><img  id="android" src="../img/Apple_logo_black.svg.png" width="80px" alt="">
+                    <h1 class="mb-0 mt-2 text-dark">PHỤ KIỆN NỔI BẬT CHO IPHONE</h1> </a>  
+                            
+                <div class="row">
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/bosaciphone.jpg" alt="">
+                        <h6>Bộ sạc iPhone</h6>
+                        <p class="giatien">Giá 400.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/otpiphone.jpg" alt="">
+                        <h6>Cáp OTG iPhone</h6>
+                        <p class="giatien">Giá 700.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/tai_nghe_apple_airpods_2_sac_co_day_1_dce91445de7c4d23a2f5862196f0cb19_grande.jpg" alt="">
+                        <h6>Tai nghe Apple</h6>
+                        <p class="giatien">Giá 2.300.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NBi1.jpg" alt="">
+                        <h6>Ốp lưng iPhone 12 Pro Max da</h6>
+                        <p class="giatien">Giá 1.790.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>
+                <div class="row">
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/dan-man-hinh-iphone_7__iphone_8.jpg" alt="">
+                        <h6>Kính cường lực iPhone</h6>
+                        <p class="giatien">Giá 120.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/apple-tv-4k-hero-select-202104.jpg" alt="">
+                        <h6>Apple TV</h6>
+                        <p class="giatien">Giá 40.000.000</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/applewatch.jpg" alt="">
+                        <h6>Apple Watch</h6>
+                        <p class="giatien">Giá 23.000.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                    <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/NBi2.jpg" alt="">
+                        <h6>Túi đựng Airpods 1 & 2 nhựa</h6>
+                        <p class="giatien">Giá 76.000đ</p>
+                        <button class="btn btn-warning mb-3">
+                            Mua ngay
+                        </button>
+                    </a>
+                </div>       
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid bg-warning d-fixed mt-5" id="footer">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md text-center mt-4">
+                        <h5>WEBSITE GIỚI THIỆU, BÁN PHỤ KIỆN ĐIỆN THOẠI TRỰC TUYẾN</br> <h1 style="font-family: fantasy;"><i><b>HPKshop.com</b></i></h1>
+                        <hr class="my-2">
+                        <p>Giảng viên: Nguyễn Thị Hoàng Khánh</p>
+                        <p>Tên lớp - Mã lớp: DHKTPM15A - 420300214507</p>
+                        <p>Đề tài: Website giới thiệu, bán phụ kiện điện thoại trực tuyến</p>
+                        <p>Tên ứng dụng: HPKshop.com</p>
+                        <p class="mt-2"><i><b>THÀNH VIÊN NHÓM: </b></i></p>
+                        <p>Dương Việt Huy - 19430971</p>
+                        <p>Võ Minh Phương - 19434751</p>
+                        <p>Huỳnh Duy Kha - 19431331</p>
+                        <hr class="my-2">
+                        <p class="float-left">&check;2021 HPKshop.com &copy;Group 21</p>
+                        <p class="float-right">All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+        
+</body>
+</html>

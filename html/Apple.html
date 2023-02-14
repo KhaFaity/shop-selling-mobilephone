@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHỤ KIỆN APPLE</title>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.css" />
+    <link rel="shortcut icon" href="../img/logo.png"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../css/bootstrap.css"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="header" class="container-fluid bg-warning">
+        <!-- Welcome -->
+        <div class="p-2 row text-dark welcome">
+            <div class="col-md">
+                <span class="align-middle">Chào mừng bạn đến với HPK Shop</span>
+                <span style="border-left: 1px solid black;" class="align-middle ml-2 pl-2">Kết nối </span>
+                <a class="" href="https://www.facebook.com/duongviethuy2001/"><img width="30px" src="../img/pngegg.png" alt=""></a>
+                <a href=""><img width="23px" src="../img/all.png" alt=""></a>
+            </div>
+            <div class="col-md text-right">
+                <span class="align-middle">
+                    <img src="../img/Very-Basic-Tones-icon-1.png" width="22px" alt="">
+                    <a href="#">Thông báo</a>
+                </span>
+                <span  class="ml-3 align-middle"> 
+                    <img src="../img/question+icon-1320184287617743312.png" width="22px" alt="">
+                    <a href="">Hỗ trợ</a>
+                </span>
+                <span id="dktc" class="alert alert-success posision-absolute">Đăng ký thành công !</span>
+                <span style="border-right: 1px solid black;" class="align-middle ml-4 pr-2 font-weight-bold" ><a id="dangky" href="../html/Register.html">
+                    <i class="fas fa-user"></i> Creat Account</a></span>
+                <span class="align-middle font-weight-bold"><a href="../html/Login.html"><i class="fas fa-sign-out-alt"></i> Login</a></span>          
+            </div>
+        </div>
+        <!-- Logo -->
+        <div style="border-top: 1px solid black; background-color: black;" class="row p-1">
+            <div class="col-md-3 text-center align-middle">
+                <span style="display: block;" class="text-warning nav-brand">
+                    <p id="logo"><i><a href="../html/index.html" style="color: #ffc107;"> HPKshop.com</a></i></p>
+                    <p id="slogan" >Uy tín - Chất lượng - Giá rẻ</p>
+                </span>
+            </div>
+            <!-- Search -->
+            <div class="col-md-6">
+                <div class="input-group p-4">
+                    <input type="text" class="form-control p-2" placeholder="Tìm kiếm sản phẩm">                
+                    <div class="input-group-append">
+                        <button class="btn pt-0 btn-warning" type="submit">
+                            <img width="15px" src="../img/137-1378213_select-public-search-button-z-svg-png-icon.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Giỏ Hàng -->
+            <div class="col-md-3 text-center">
+                <button class="btn m-4 p-1 btn-warning">
+                    <a href="../html/GioHang.html">
+                        <span class="align-middle px-1"> <i class="fa fa-shopping-cart" aria-hidden="true"></i> Giỏ hàng</span>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="row justify-content-center">
+            <nav class="header-nav navbar navbar-expand-md p-2">
+                <ul class="navbar-nav text-center font-weight-bold text-dark">
+                    <li class="nav-item "><a href="../html/index.html" class="nav-link mx-2 "><i class="fas fa-home"></i> Trang chủ</a></li>
+                    <li class="nav-item"><a href="https://www.thegioididong.com/tin-tuc" class="nav-link mx-2"><i class="fas fa-newspaper"></i> Tin tức</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle" href="../html/index.html" data-toggle="dropdown" >
+                            <i class="fas fa-clipboard-list"></i> Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu" >
+                            <li>
+                                <a href="../html/Tainghe.html" class="nav_link dropdown-item">Tai Nghe</a>
+                            </li>
+                            <li >
+                                <a href="../html/OpLung.html" class="nav_link dropdown-item">Ốp lưng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-dtdd" class="nav_link dropdown-item">Sạc dự phòng</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/mieng-dan-man-hinh" class="nav_link dropdown-item">Kiến cường lực</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/sac-cap" class="nav_link dropdown-item">Sạc, cáp sạc</a>
+                            </li>
+                            <li >
+                                <a href="https://www.thegioididong.com/gay-tu-suong" class="nav_link dropdown-item">Gậy tự sướng</a>
+                            </li>
+                            <li >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-lock"></i> Bảo hành</a></li>
+                    <li class="nav-item "><a href="" class="nav-link mx-2"><i class="fas fa-exchange-alt"></i> Trả hàng</a></li>
+                    <li class="nav-item "><a href="../html/Introduction.html" class="nav-link mx-2"><i class="fas fa-info"></i> Giới thiệu</a></li>
+                    <li class="nav-item "><a href="../html/sitemap.html" class="nav-link mx-2"><i class="fas fa-sitemap"></i> Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+<!-- product -->
+<div class="container-fluid mt-4">
+    <div class="row text-center">
+        <div class="phukiennoibat col-md-12 mt-2"> 
+            <a href="../html/Apple.html"><img  id="android" src="../img/Apple_logo_black.svg.png" width="100px" alt=""></a>  
+            <h1 class="mb-0 mt-4 text-dark">PHỤ KIỆN NỔI BẬT CHO IPHONE</h1>  
+            <h2 class="mt-3 text-danger">Tai Nghe</h2> 
+            <div class="row">                
+                <div class="col-md-1 p-0 m-2"></div>
+                <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/tainghe/Apple/airpods-2-wireless-charge-apple-mrxj2-ava-600x600.jpg" alt="">
+                        <h6>Tai Nghe Airpods 2</h6>
+                        <p class="giatien">Giá 3.640.000đ</p>
+                        <button class="btn btn-warning" >
+                            Mua ngay
+                        </button> <br>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/tainghe/Apple/airpods-pro-wireless-charge-apple-mwp22-ava-600x600.jpg" alt="">
+                    <h6>Tai Nghe Airpods Pro</h6>
+                    <p class="giatien">Giá 5.300.000đ</p>
+                    <button class="btn btn-warning ">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="" >
+                    <img width="100%" src="../img/tainghe/Apple/tai-nghe-earpods-apple-md827fea-avatar-1-600x600.jpg" alt="">
+                    <h6>Tai nghe Earpods Apple</h6>
+                    <p class="giatien">Giá 690.000</p>
+                    <button class="btn btn-warning ">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/tainghe/Apple/tai-nghe-earpods-cong-lightning-apple-mmtn2-avatar-1-600x600.jpg" alt="">
+                    <h6>Tai nghe Earpods Lightning</h6>
+                    <p class="giatien">Giá 530.000</p>
+                    <button class="btn btn-warning " >
+                        Mua ngay
+                    </button>
+                </a>
+                <div class="col-md-1 p-0"></div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-4 text-center">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mt-2 p-0"> 
+            <h2 class="text-danger" >Ốp Lưng</h2> 
+            <div class="row">
+                <a class="sanpham col-md p-0 m-2" href="">
+                        <img width="100%" src="../img/OpLung/iphone/ip7/op-lung-iphone-7-8-nhua-cung-metalic-meeker-gold-1-600x600.jpg" alt="">
+                        <h6>Ốp lưng iPhone 7 Plus/ 8 Plus Nhựa cứng viền dẻo Metalic MEEKER</h6>
+                        <p class="giatien">Giá 100.000đ</p>
+                        <button class="btn btn-warning">
+                            Mua ngay
+                        </button> <br>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip7/op-lung-iphone-7-8-nhua-deo-racing-jm-den-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 7 Plus/ 8 Plus nhựa dẻo Racing JM Đen</h6>
+                    <p class="giatien">Giá 75.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip7/op-lung-iphone-7-8-nhua-deo-tpu-transparent-print-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 7-8 nhựa dẻo Transparent TPU (matte) OSMIA Nude</h6>
+                    <p class="giatien">Giá 25.000</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>                
+            </div> 
+
+            <div class="row text-center">
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip7/op-lung-iphone-7-8-plus-deo-beckman-jm-tpu-den-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 7 Plus/ 8 Plus Nhựa dẻo BECKMAN JM TPU Đen </h6>
+                    <p class="giatien">Giá 61.000</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip12/op-iphone-12-pro-max-cung-tpu-pc-double-phone-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 12 Pro Max Nhựa cứng viền dẻo TPU PC Double Phone Case COSANO Đen</h6>
+                    <p class="giatien">Giá 76.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip12/op-lung-iphone-12-pro-max-nhua-cung-vien-deo-rubbe-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 12 Pro Max Nhựa cứng viền dẻo Rubber 2 IN 1 TKS-LZB17 MEEKER</h6>
+                    <p class="giatien">Giá 51.000</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                
+            </div>
+            <div class="row">               
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip12/op-lung-iphone-12-pro-max-nhua-cung-vien-deo-skimy-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 12 Pro Max Nhựa cứng viền dẻo BV JM</h6>
+                    <p class="giatien">Giá 76.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>            
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ip12/op-lung-iphone-12-pro-max-nhua-deo-glue-case-meeke-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone 12 Pro Max Nhựa dẻo Slippa JM Nude</h6>
+                    <p class="giatien">51.000</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ipXR/op-lung-iphone-xr-deo-electroplating-nhip-tim-bac-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone XR Nhựa dẻo Electroplating nhịp tim COSANO bạc</h6>
+                    <p class="giatien">Giá 51.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button> 
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ipXR/op-lung-iphone-xr-cung-vien-glass-simple-ii-trang-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone XR Nhựa cứng viền dẻo Glass simple II JM trắng</h6>
+                    <p class="giatien">Giá 51.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button> 
+            </a>                
+            </div>
+            <div class="row">
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ipXR/op-lung-iphone-xr-deo-electroplating-future-co-den-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone XR Nhựa dẻo Electroplating future COSANO đen</h6>
+                    <p class="giatien">Giá 51.000đ</p>
+                    <button class="btn btn-warning">Mua ngay
+                    </button>
+                </a>   
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ipXR/op-lung-iphone-xr-deo-fresh-cosano-den-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone XR Nhựa dẻo Fresh COSANO đen</h6>
+                    <p class="giatien">Giá 51.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>
+                <a class="sanpham col-md p-0 m-2" href="">
+                    <img width="100%" src="../img/OpLung/iphone/ipXR/op-lung-iphone-xr-deo-tiny-grained-cosano-nude-1-600x600.jpg" alt="">
+                    <h6>Ốp lưng iPhone XR Nhựa dẻo Tiny Grained COSANO nude</h6>
+                    <p class="giatien">Giá 25.000đ</p>
+                    <button class="btn btn-warning">
+                        Mua ngay
+                    </button>
+                </a>                
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+ <!-- footer -->
+ <div class="container-fluid bg-warning d-fixed mt-5" id="footer">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="col-md text-center mt-4">
+                    <h5>WEBSITE GIỚI THIỆU, BÁN PHỤ KIỆN ĐIỆN THOẠI TRỰC TUYẾN</br> <h1 style="font-family: fantasy;"><i><b>HPKshop.com</b></i></h1>
+                    <hr class="my-2">
+                    <p>Giảng viên: Nguyễn Thị Hoàng Khánh</p>
+                    <p>Tên lớp - Mã lớp: DHKTPM15A - 420300214507</p>
+                    <p>Đề tài: Website giới thiệu, bán phụ kiện điện thoại trực tuyến</p>
+                    <p>Tên ứng dụng: HPKshop.com</p>
+                    <p class="mt-2"><i><b>THÀNH VIÊN NHÓM: </b></i></p>
+                    <p>Dương Việt Huy - 19430971</p>
+                    <p>Võ Minh Phương - 19434751</p>
+                    <p>Huỳnh Duy Kha - 19431331</p>
+                    <hr class="my-2">
+                    <p class="float-left">&check;2021 HPKshop.com &copy;Group 21</p>
+                    <p class="float-right">All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
